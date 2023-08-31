@@ -42,11 +42,28 @@ header h1{
 /* Cards */
 
 img{
-    width: 100px;
+    float: left;
+    width: 70px;
+    margin-right: 3px;
 }
 
 .card__labels{
     float: left;
+    width: calc((100% - 40px) / 3);
+    margin-right: 20px;
+    background-color: #0F0E17;
+}
+
+.card__labels:last-child{
+    margin: 0;
+}
+
+.card__labels>p{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    padding: 3px;
+    
 }
 
 .debug .container{
@@ -54,8 +71,12 @@ img{
 
 }
 
+.debug .card{
+    border: 2px solid yellow;
+    /* padding: 10px; */
+}
 .debug .card__labels{
     border: 2px solid black;
-    padding: 10px;
-    min-height: 100px;
+    /* padding: 10px; */
+    
 }
