@@ -13,17 +13,15 @@ body{
 .container{
     margin: 0 auto;
     max-width: 800px;
+    
 }
 
 .clearfix::after{
     content: '';
     display: table;
-    clear:left;
+    clear: both;
 } 
 
-.float-left{
-    float: left;
-}
    
 
 /* Title  */
@@ -38,4 +36,26 @@ header h1{
 
 .description{
     text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Cards */
+
+img{
+    width: 100px;
+}
+
+.card__labels{
+    float: left;
+}
+
+.debug .container{
+    border: 2px solid red;
+
+}
+
+.debug .card__labels{
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 100px;
 }
