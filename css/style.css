@@ -44,28 +44,64 @@ header h1{
 img{
     float: left;
     width: 70px;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
-.card__labels{
+.card-labels{
     float: left;
     width: calc((100% - 40px) / 3);
     margin-right: 20px;
     background-color: #0F0E17;
 }
 
-.card__labels:last-child{
+.card-labels:last-child{
     margin: 0;
 }
 
-.card__labels>p{
+.card-labels>p{
+    padding: 3px;
+}
+
+.card-labels p:first-of-type{
     font-weight: 700;
     font-size: 15px;
     color: white;
-    padding: 3px;
-    
 }
 
+.card-labels__white{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-labels__email{
+    font-size: 10px;
+    color: #3A8ED7;
+}
+
+.card-margin{
+    margin: 40px 0px;
+}
+
+
+
+/* footer */
+.footer-ad{
+    padding: 30px;
+    border-bottom: 40px solid #222222;
+}
+
+.footer-bg-color{
+    background-color: #222222;
+}
+
+.footer-text{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* debug */
 .debug .container{
     border: 2px solid red;
 
@@ -75,7 +111,7 @@ img{
     border: 2px solid yellow;
     /* padding: 10px; */
 }
-.debug .card__labels{
+.debug .card-labels{
     border: 2px solid black;
     /* padding: 10px; */
     
