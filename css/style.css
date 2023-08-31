@@ -1,0 +1,41 @@
+/* Reset and main rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear:left;
+} 
+
+.float-left{
+    float: left;
+}
+   
+
+/* Title  */
+
+header h1{
+    text-align: center;
+    padding: 50px;
+    color: #E53170;
+}
+
+/* First paragraph text */
+
+.description{
+    text-align: center;
+}
