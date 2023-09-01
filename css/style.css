@@ -52,7 +52,14 @@ img{
     margin-right: 10px;
 }
 
-.card-labels{
+/* .card{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+} */
+
+
+.card__labels{
     float: left;
     width: calc((100% - 40px) / 3);
     margin-right: 20px;
@@ -60,46 +67,46 @@ img{
     box-shadow:  1px -2px 12px 5px rgba(155, 154, 154, 0.801);
 }
 
-.card-labels:last-child{
+.card__labels:last-child{
     margin: 0;
 }
 
-.card-labels>p{
+.card__labels>p{
     padding: 3px;
 }
 
-.card-labels p:first-of-type{
+.card__labels p:first-of-type{
     font-weight: 700;
     font-size: 15px;
     color: white;
 }
 
-.card-labels__white{
+.card__labels-white{
     color: white;
     font-size: 12px;
     font-weight: 400;
 }
-.card-labels__email{
+.card__labels-email{
     font-size: 10px;
     color: #3A8ED7;
 }
 
-.card-margin{
+.page-margin{
     margin: 40px 0px;
 }
 
 
 
 /* footer */
-.footer-ad{
+.footer{
     padding: 50px 0;
 }
 
-.footer-bg-color{
+.footer__bg-color{
     background-color: #222222;
 }
 
-.footer-text{
+.footer__text{
     color: white;
     font-weight: 400;
     text-align: center;
