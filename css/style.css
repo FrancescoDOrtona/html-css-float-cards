@@ -103,17 +103,17 @@ img{
 
 
 /* debug */
-.debug .container{
+/* .debug .container{
     border: 2px solid red;
 
 }
 
 .debug .card{
     border: 2px solid yellow;
-    /* padding: 10px; */
-}
+    padding: 10px;
+ }
+
 .debug .card-labels{
     border: 2px solid black;
-    /* padding: 10px; */
-    
-}
+    padding: 10px;
+ }  */ 
